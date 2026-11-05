@@ -4,6 +4,8 @@ on:
   pull_request:
     paths:
       - 'specs/**'
+      # Discovery precede a especificação completa.
+      - '!specs/discovery.md'
       - 'plans/**'
       - 'tasks/**'
       - 'src/**'
